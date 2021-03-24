@@ -1,6 +1,8 @@
+body {
+  background-color: #383C3F;
+}
 
-html, body {
-background-color: brown;
+
 *{
     margin: 0px;
     padding: 0px;
@@ -13,7 +15,6 @@ nav{
     background-color: #100F0F;
     position: sticky;
     top: 0px;
-	opacity: 0.90;
 }
 
 nav ul{
@@ -41,7 +42,7 @@ nav a{
 }
 
 nav a:hover{
-    color: #2398D2;
+    color: orange;
     border-bottom: 2px solid gold;
 }
 
@@ -49,3 +50,4 @@ nav a:hover{
   margin: 0px 20px;
   height: 1500px;
 }
+
