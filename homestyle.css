@@ -1,17 +1,6 @@
 
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-}
-/* l'image occupe toute la place du body */
-#arriere {
-	width : 100%;
-	height: 100%;
-}
-
-
+background-color: brown;
 *{
     margin: 0px;
     padding: 0px;
