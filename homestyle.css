@@ -24,6 +24,7 @@ nav{
     background-color: #100F0F;
     position: sticky;
     top: 0px;
+	opacity: 0.33;
 }
 
 nav ul{
