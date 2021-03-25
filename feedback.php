@@ -1,2 +1,9 @@
-Bonjour, <?php echo htmlspecialchars($_POST['nom']); ?>.
-Tu as <?php echo (int)$_POST['age']; ?> ans.
+<?php
+// 1 : on ouvre le fichier
+$monfichier = fopen('données.txt', 'r+');
+
+// 2 : on fera ici nos opérations sur le fichier...
+
+// 3 : quand on a fini de l'utiliser, on ferme le fichier
+fclose($monfichier);
+?>
