@@ -146,21 +146,3 @@ body {
 }
 
 
-@each $bname, $bcolors in $btns {
-  .btn--#{$bname} {
-    background-color: map-get($bcolors, gstart);
-    color: map-get($bcolors, tstart);
-  
-    &:before {
-      background-color: map-get($bcolors, gend);
-      background-image: linear-gradient(to right, map-get($bcolors, gend) 30%, map-get($bcolors, gstart) 100%);
-      position: absolute;
-    }
-    
-    &:hover,
-    &:focus,
-    &:active {    
-      color: map-get($bcolors, tend);
-    }
-  }
-}
